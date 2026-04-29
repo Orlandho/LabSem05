@@ -7,4 +7,11 @@ public class MenuPrincipal : MonoBehaviour
     {
         SceneManager.LoadScene("EscenaJuego");
     }
+      public void SalirJuego() {
+   		#if UNITY_EDITOR
+       		UnityEditor.EditorApplication.isPlaying = false;
+   		#else
+       		Application.Quit();
+   		#endif
+	}
 }
