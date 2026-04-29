@@ -491,6 +491,7 @@ GameObject:
   - component: {fileID: 1795786160}
   - component: {fileID: 1795786159}
   - component: {fileID: 1795786163}
+  - component: {fileID: 1795786164}
   m_Layer: 0
   m_Name: Personaje
   m_TagString: Untagged
@@ -665,6 +666,20 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   estaEnSuelo: 0
+--- !u!114 &1795786164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795786158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4929d3fbef71f049a894d833465437e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectorCaidaPersonaje
+  limiteInferior: -5
+  nombreEscenaGameOver: GameOver
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
